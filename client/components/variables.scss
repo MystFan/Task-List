@@ -1,0 +1,22 @@
+$bs-viewport-breakpoint-xs-top-raw: 599;
+$bs-viewport-breakpoint-sm-bottom-raw: $bs-viewport-breakpoint-xs-top-raw + 1;
+$bs-viewport-breakpoint-sm-top-raw: 959;
+$bs-viewport-breakpoint-md-bottom-raw: $bs-viewport-breakpoint-sm-top-raw + 1;
+$bs-viewport-breakpoint-md-top-raw: 1289;
+$bs-viewport-breakpoint-lg-bottom-raw: $bs-viewport-breakpoint-md-top-raw + 1;
+$bs-viewport-breakpoint-lg-top-raw: 1919;
+$bs-viewport-breakpoint-xl-bottom-raw: $bs-viewport-breakpoint-lg-top-raw + 1;
+
+$bs-viewport-breakpoint-xs-top: #{$bs-viewport-breakpoint-xs-top-raw}px;
+$bs-viewport-breakpoint-sm-bottom: #{$bs-viewport-breakpoint-sm-bottom-raw}px;
+$bs-viewport-breakpoint-sm-top: #{$bs-viewport-breakpoint-sm-top-raw}px;
+$bs-viewport-breakpoint-md-bottom: #{$bs-viewport-breakpoint-md-bottom-raw}px;
+$bs-viewport-breakpoint-md-top: #{$bs-viewport-breakpoint-md-top-raw}px;
+$bs-viewport-breakpoint-lg-bottom: #{$bs-viewport-breakpoint-lg-bottom-raw}px;
+$bs-viewport-breakpoint-lg-top: #{$bs-viewport-breakpoint-lg-top-raw}px;
+$bs-viewport-breakpoint-xl-bottom: #{$bs-viewport-breakpoint-xl-bottom-raw}px;
+
+$bs-container-primary-background-default-dark: #232F38;
+$bs-container-secondary-background-default-dark: #2F3136;
+$bs-container-primary-background-default-light: #F5F5F5;
+$bs-container-secondary-background-default-light: #F2F4F6;

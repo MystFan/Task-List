@@ -1,0 +1,24 @@
+@use "../variables.scss" as v;
+
+.siteWrapper {
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.siteHeader {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.siteFooter {
+    grid-area: footer;
+}
